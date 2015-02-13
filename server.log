@@ -1,0 +1,342 @@
+2015-02-13 09:48:15,842 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2015-02-13 09:48:16,462 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2015-02-13 09:48:16,678 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2015-02-13 09:48:16,688 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-7-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.7.0_75-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_75
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.75-b04
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final
+	jboss.host.name = vagrant-ubuntu-trusty-64
+	jboss.modules.dir = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = vagrant-ubuntu-trusty-64
+	jboss.qualified.host.name = vagrant-ubuntu-trusty-64
+	jboss.server.base.dir = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone
+	jboss.server.config.dir = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/configuration
+	jboss.server.data.dir = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/data
+	jboss.server.deploy.dir = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/data/content
+	jboss.server.log.dir = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/log
+	jboss.server.name = vagrant-ubuntu-trusty-64
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/configuration/logging.properties
+	module.path = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/modules
+	org.jboss.boot.log.file = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.13.0-45-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/jboss-modules.jar -mp /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final -Djboss.server.base.dir=/tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final
+	user.home = /home/ray
+	user.language = en
+	user.name = ray
+	user.timezone = Etc/UTC
+2015-02-13 09:48:16,692 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/log/server.log -Dlogging.configuration=file:/tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/configuration/logging.properties 
+2015-02-13 09:48:18,741 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2015-02-13 09:48:18,885 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2015-02-13 09:48:18,909 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2015-02-13 09:48:18,998 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+2015-02-13 09:48:19,016 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+2015-02-13 09:48:19,008 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2015-02-13 09:48:19,103 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+2015-02-13 09:48:19,176 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+2015-02-13 09:48:19,188 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-02-13 09:48:19,284 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2015-02-13 09:48:19,263 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2015-02-13 09:48:19,275 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+2015-02-13 09:48:19,415 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+2015-02-13 09:48:19,413 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.1.0.Final starting
+2015-02-13 09:48:19,647 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.6.Final
+2015-02-13 09:48:19,836 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.21.Final
+2015-02-13 09:48:19,861 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017502: Undertow 1.1.0.Final starting
+2015-02-13 09:48:19,955 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010417: Started Driver service with driver-name = h2
+2015-02-13 09:48:20,093 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2015-02-13 09:48:20,075 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/welcome-content
+2015-02-13 09:48:20,374 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2015-02-13 09:48:20,976 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2015-02-13 09:48:21,239 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016330: CORBA ORB Service started
+2015-02-13 09:48:21,248 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017531: Host default-host starting
+2015-02-13 09:48:21,375 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-02-13 09:48:21,408 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/deployments
+2015-02-13 09:48:21,462 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "test1.war" (runtime-name: "test1.war")
+2015-02-13 09:48:21,493 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "test2.war" (runtime-name: "test2.war")
+2015-02-13 09:48:27,595 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016328: CORBA Naming Service started
+2015-02-13 09:48:27,772 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/data/messagingjournal,bindingsDirectory=/tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/data/messagingbindings,largeMessagesDirectory=/tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/data/messaginglargemessages,pagingDirectory=/tmp/tmp.eIW9Q3mHjN/wildfly-8.2.0.Final/standalone/data/messagingpaging)
+2015-02-13 09:48:27,774 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+2015-02-13 09:48:28,097 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221012: Using AIO Journal
+2015-02-13 09:48:28,142 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2015-02-13 09:48:28,237 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+2015-02-13 09:48:28,355 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+2015-02-13 09:48:28,380 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+2015-02-13 09:48:28,393 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+2015-02-13 09:48:28,408 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2015-02-13 09:48:28,588 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+2015-02-13 09:48:28,589 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+2015-02-13 09:48:28,613 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.jboss.as.clustering.jgroups:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,627 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.jboss.as.clustering.jgroups:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,632 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.infinispan:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,632 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.infinispan:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,633 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.infinispan.commons:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,635 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.infinispan.commons:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,635 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.jboss.as.clustering.infinispan:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,636 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.jboss.as.clustering.infinispan:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,638 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.jboss.as.messaging:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,639 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.test1.war" is using a private module ("org.jboss.as.messaging:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,733 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.jboss.as.clustering.jgroups:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,738 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.jboss.as.clustering.jgroups:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,743 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.infinispan:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,743 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.infinispan:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,747 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.infinispan.commons:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,752 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.infinispan.commons:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,755 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.jboss.as.clustering.infinispan:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,755 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.jboss.as.clustering.infinispan:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,756 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.jboss.as.messaging:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:28,756 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS018567: Deployment "deployment.test2.war" is using a private module ("org.jboss.as.messaging:main") which may be changed or removed in future versions without notice.
+2015-02-13 09:48:29,346 INFO  [org.jboss.messaging] (MSC service thread 1-1) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+2015-02-13 09:48:29,351 INFO  [org.jboss.messaging] (MSC service thread 1-2) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+2015-02-13 09:48:29,443 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+2015-02-13 09:48:29,443 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [75cf3558-b365-11e4-bead-6b126b340ca1] 
+2015-02-13 09:48:29,612 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2015-02-13 09:48:29,937 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 56) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+2015-02-13 09:48:29,975 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2015-02-13 09:48:29,978 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 57) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2015-02-13 09:48:29,979 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221003: trying to deploy queue jms.queue.DLQ
+2015-02-13 09:48:29,982 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+2015-02-13 09:48:30,175 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010406: Registered connection factory java:/JmsXA
+2015-02-13 09:48:30,318 INFO  [org.hornetq.ra] (MSC service thread 1-1) HornetQ resource adaptor started
+2015-02-13 09:48:30,319 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2015-02-13 09:48:30,320 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2015-02-13 09:48:30,323 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2015-02-13 09:48:30,327 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2015-02-13 09:48:30,334 INFO  [org.infinispan.factories.GlobalComponentRegistry] (ServerService Thread Pool -- 58) ISPN000128: Infinispan version: Infinispan 'Infinium' 6.0.2.Final
+2015-02-13 09:48:30,338 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2015-02-13 09:48:30,339 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2015-02-13 09:48:30,341 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2015-02-13 09:48:30,342 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2015-02-13 09:48:30,342 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2015-02-13 09:48:30,755 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 57) ISPN000031: MBeans were successfully registered to the platform MBean server.
+2015-02-13 09:48:30,756 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 58) ISPN000031: MBeans were successfully registered to the platform MBean server.
+2015-02-13 09:48:30,759 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) JBAS010281: Started test1.war cache from web container
+2015-02-13 09:48:30,758 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) JBAS010281: Started test2.war cache from web container
+2015-02-13 09:48:31,001 INFO  [org.projectodd.wunderboss] (MSC service thread 1-2) Initializing /test1 as clojure
+2015-02-13 09:48:31,000 INFO  [org.projectodd.wunderboss] (MSC service thread 1-1) Initializing /test2 as clojure
+2015-02-13 09:48:46,456 INFO  [org.projectodd.wunderboss.web.Web] (MSC service thread 1-1) Registered web context /
+2015-02-13 09:48:46,464 INFO  [org.projectodd.wunderboss.web.Web] (MSC service thread 1-2) Registered web context /
+2015-02-13 09:49:50,046 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./test2: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./test2: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_75]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_75]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_75]
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:222)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:87)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at org.projectodd.wunderboss.wildfly.ServletListener.contextInitialized(ServletListener.java:67)
+	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:173)
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:193)
+	... 7 more
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at org.projectodd.wunderboss.clojure.ClojureLanguage.eval(ClojureLanguage.java:74)
+	at org.projectodd.wunderboss.ApplicationRunner.start(ApplicationRunner.java:51)
+	at org.projectodd.wunderboss.wildfly.ServletListener.contextInitialized(ServletListener.java:65)
+	... 9 more
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at org.projectodd.wunderboss.LoaderWrapper.callInLoader(LoaderWrapper.java:35)
+	at org.projectodd.wunderboss.clojure.ClojureLanguage.eval(ClojureLanguage.java:65)
+	... 11 more
+Caused by: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at org.projectodd.wunderboss.wildfly.WildFlyMessaging.throwTimeout(WildFlyMessaging.java:112)
+	at org.projectodd.wunderboss.wildfly.WildFlyMessaging.createTopic(WildFlyMessaging.java:83)
+	at org.projectodd.wunderboss.messaging.hornetq.HQMessaging.findOrCreateTopic(HQMessaging.java:260)
+	at immutant.messaging$topic.doInvoke(messaging.clj:140)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at immutant_test.core$_main.doInvoke(core.clj:29)
+	at clojure.lang.RestFn.invoke(RestFn.java:397)
+	at clojure.lang.Var.invoke(Var.java:375)
+	at immutant.wildfly$init_deployment.invoke(wildfly.clj:87)
+	at clojure.core$eval42.invoke(NO_SOURCE_FILE)
+	at clojure.lang.Compiler.eval(Compiler.java:6703)
+	at clojure.lang.Compiler.eval(Compiler.java:6693)
+	at clojure.lang.Compiler.eval(Compiler.java:6693)
+	at clojure.lang.Compiler.eval(Compiler.java:6666)
+	at clojure.core$eval.invoke(core.clj:2927)
+	at clojure.lang.Var.invoke(Var.java:379)
+	at org.projectodd.wunderboss.clojure.ClojureLanguage$2.call(ClojureLanguage.java:68)
+	at org.projectodd.wunderboss.LoaderWrapper.callInLoader(LoaderWrapper.java:33)
+	... 12 more
+
+2015-02-13 09:49:50,038 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./test1: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./test1: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_75]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_75]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_75]
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:222)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:87)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at org.projectodd.wunderboss.wildfly.ServletListener.contextInitialized(ServletListener.java:67)
+	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:173)
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:193)
+	... 7 more
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at org.projectodd.wunderboss.clojure.ClojureLanguage.eval(ClojureLanguage.java:74)
+	at org.projectodd.wunderboss.ApplicationRunner.start(ApplicationRunner.java:51)
+	at org.projectodd.wunderboss.wildfly.ServletListener.contextInitialized(ServletListener.java:65)
+	... 9 more
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at org.projectodd.wunderboss.LoaderWrapper.callInLoader(LoaderWrapper.java:35)
+	at org.projectodd.wunderboss.clojure.ClojureLanguage.eval(ClojureLanguage.java:65)
+	... 11 more
+Caused by: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+	at org.projectodd.wunderboss.wildfly.WildFlyMessaging.throwTimeout(WildFlyMessaging.java:112)
+	at org.projectodd.wunderboss.wildfly.WildFlyMessaging.createTopic(WildFlyMessaging.java:83)
+	at org.projectodd.wunderboss.messaging.hornetq.HQMessaging.findOrCreateTopic(HQMessaging.java:260)
+	at immutant.messaging$topic.doInvoke(messaging.clj:140)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at immutant_test.core$_main.doInvoke(core.clj:29)
+	at clojure.lang.RestFn.invoke(RestFn.java:397)
+	at clojure.lang.Var.invoke(Var.java:375)
+	at immutant.wildfly$init_deployment.invoke(wildfly.clj:87)
+	at clojure.core$eval42.invoke(NO_SOURCE_FILE)
+	at clojure.lang.Compiler.eval(Compiler.java:6703)
+	at clojure.lang.Compiler.eval(Compiler.java:6693)
+	at clojure.lang.Compiler.eval(Compiler.java:6693)
+	at clojure.lang.Compiler.eval(Compiler.java:6666)
+	at clojure.core$eval.invoke(core.clj:2927)
+	at clojure.lang.Var.invoke(Var.java:379)
+	at org.projectodd.wunderboss.clojure.ClojureLanguage$2.call(ClojureLanguage.java:68)
+	at org.projectodd.wunderboss.LoaderWrapper.callInLoader(LoaderWrapper.java:33)
+	... 12 more
+
+2015-02-13 09:49:50,098 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221003: trying to deploy queue jms.topic.test1-topic
+2015-02-13 09:49:50,112 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 61) JBAS011601: Bound messaging object to jndi name java:/jms/topic/test1-topic
+2015-02-13 09:49:50,112 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221003: trying to deploy queue jms.topic.test2-topic
+2015-02-13 09:49:50,115 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:/jms/topic/test2-topic
+2015-02-13 09:49:50,132 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "test2.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./test2" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./test2: Failed to start service
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+    Caused by: java.lang.RuntimeException: Gave up waiting for creation of topic test2-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property."}}
+2015-02-13 09:49:50,140 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "test1.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./test1" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./test1: Failed to start service
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property.
+    Caused by: java.lang.RuntimeException: Gave up waiting for creation of topic test1-topic after 60000ms. If that time is too short, you can adjust with the wunderboss.messaging.destination-availability-timeout system property."}}
+2015-02-13 09:49:50,251 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "test1.war" (runtime-name : "test1.war")
+2015-02-13 09:49:50,253 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "test2.war" (runtime-name : "test2.war")
+2015-02-13 09:49:50,254 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./test2: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./test2: Failed to start service
+      service jboss.undertow.deployment.default-server.default-host./test1: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./test1: Failed to start service
+
+2015-02-13 09:49:50,302 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2015-02-13 09:49:50,315 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2015-02-13 09:49:50,315 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.0.Final "Tweek" started (with errors) in 94935ms - Started 377 of 435 services (4 services failed or missing dependencies, 125 services are lazy, passive or on-demand)
+2015-02-13 09:49:50,522 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 61) JBAS011605: Unbound messaging object to jndi name java:/jms/topic/test1-topic
+2015-02-13 09:49:50,564 INFO  [org.infinispan.eviction.PassivationManagerImpl] (ServerService Thread Pool -- 18) ISPN000029: Passivating all entries to disk
+2015-02-13 09:49:50,566 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 17) JBAS011605: Unbound messaging object to jndi name java:/jms/topic/test2-topic
+2015-02-13 09:49:50,566 INFO  [org.infinispan.eviction.PassivationManagerImpl] (ServerService Thread Pool -- 18) ISPN000030: Passivated 0 entries in 1 milliseconds
+2015-02-13 09:49:50,567 INFO  [org.infinispan.eviction.PassivationManagerImpl] (ServerService Thread Pool -- 28) ISPN000029: Passivating all entries to disk
+2015-02-13 09:49:50,571 INFO  [org.infinispan.eviction.PassivationManagerImpl] (ServerService Thread Pool -- 28) ISPN000030: Passivated 0 entries in 4 milliseconds
+2015-02-13 09:49:50,574 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 28) JBAS010282: Stopped test1.war cache from web container
+2015-02-13 09:49:50,588 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 18) JBAS010282: Stopped test2.war cache from web container
+2015-02-13 09:49:50,626 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.3.Final
+2015-02-13 09:49:50,726 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment test2.war (runtime-name: test2.war) in 201ms
+2015-02-13 09:49:50,730 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment test1.war (runtime-name: test1.war) in 215ms
+2015-02-13 09:49:50,845 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "test2.war" (runtime-name: "test2.war")
+2015-02-13 09:49:50,846 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "test1.war" (runtime-name: "test1.war")
+2015-02-13 09:49:50,847 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."test1.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."test1.war".deploymentCompleteService] 
+      service jboss.deployment.unit."test1.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."test1.war".deploymentCompleteService] 
+      service jboss.deployment.unit."test1.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."test1.war".deploymentCompleteService] 
+      service jboss.deployment.unit."test1.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."test1.war".deploymentCompleteService] 
+      service jboss.deployment.unit."test1.war".component."org.projectodd.wunderboss.wildfly.ServletListener".START (missing) dependents: [service jboss.deployment.unit."test1.war".deploymentCompleteService] 
+      service jboss.deployment.unit."test2.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."test2.war".deploymentCompleteService] 
+      service jboss.deployment.unit."test2.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."test2.war".deploymentCompleteService] 
+      service jboss.deployment.unit."test2.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."test2.war".deploymentCompleteService] 
+      service jboss.deployment.unit."test2.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."test2.war".deploymentCompleteService] 
+      service jboss.deployment.unit."test2.war".component."org.projectodd.wunderboss.wildfly.ServletListener".START (missing) dependents: [service jboss.deployment.unit."test2.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./test1 (missing) dependents: [service jboss.deployment.unit."test1.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./test2 (missing) dependents: [service jboss.deployment.unit."test2.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./test2
+      service jboss.undertow.deployment.default-server.default-host./test1
+
+2015-02-13 09:50:07,489 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011605: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2015-02-13 09:50:07,490 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-02-13 09:50:07,493 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 18) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2015-02-13 09:50:07,497 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017532: Host default-host stopping
+2015-02-13 09:50:07,499 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 26) JBAS011605: Unbound messaging object to jndi name java:/jms/queue/DLQ
+2015-02-13 09:50:07,499 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+2015-02-13 09:50:07,512 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = h2
+2015-02-13 09:50:07,552 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 18) HQ151003: HornetQ resource adaptor stopped
+2015-02-13 09:50:07,573 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 18) HQ221002: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [75cf3558-b365-11e4-bead-6b126b340ca1] stopped
+2015-02-13 09:50:07,574 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017521: Undertow HTTP listener default suspending
+2015-02-13 09:50:07,576 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2015-02-13 09:50:07,577 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017506: Undertow 1.1.0.Final stopping
+2015-02-13 09:50:07,603 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 122ms
